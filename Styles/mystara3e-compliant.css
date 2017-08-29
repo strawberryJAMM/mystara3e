@@ -1,0 +1,39 @@
+/* Embeded Font objects using the EOT format */
+/* $WEFT -- Created by: Jenni A.M. Merrifield (strawberry@jamm.com) on 7/10/2003 -- */
+
+  @font-face {
+    font-family: Arial Unicode MS;
+    font-style:  normal;
+    font-weight: normal;
+    src: url("../includes/fontobj/ARIALUN3.eot");
+  }
+  @font-face {
+    font-family: Arial Unicode MS;
+    font-style:  normal;
+    font-weight: 700;
+    src: url("../includes/fontobj/ARIALUN2.eot");
+  }
+  @font-face {
+    font-family: Arial Unicode MS;
+    font-style:  oblique;
+    font-weight: normal;
+    src: url("../includes/fontobj/ARIALUN0.eot");
+  }
+  @font-face {
+    font-family: Arial Unicode MS;
+    font-style:  oblique;
+    font-weight: 700;
+    src: url("../includes/fontobj/ARIALUN1.eot");
+  }
+  @font-face {
+    font-family: Courier New;
+    font-style:  normal;
+    font-weight: 700;
+    src: url("../includes/fontobj/COURIER1.eot");
+  }
+  @font-face {
+    font-family: Courier New;
+    font-style:  normal;
+    font-weight: normal;
+    src: url("../includes/fontobj/COURIER0.eot");
+  }

@@ -1,0 +1,835 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: WaSP : Learn : Reference
+Date: Mon, 1 Sep 2003 22:19:13 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_01C370D7.1351E6C0";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1165
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C370D7.1351E6C0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.webstandards.org/learn/reference/prolog_problems.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>WaSP : Learn : =
+Reference</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3Dtrue name=3DMSSmartTagsPreventParsing>
+<STYLE type=3Dtext/css>@import url( /inc/css/wsp.css );
+</STYLE>
+<LINK media=3Dprint =
+href=3D"http://www.webstandards.org/inc/css/print.css"=20
+type=3Dtext/css rel=3Dstylesheet>
+<SCRIPT src=3D"http://www.webstandards.org/inc/js/wsp.js"=20
+type=3Dtext/javascript></SCRIPT>
+<!--=0A=
+<script type=3D"text/javascript" src=3D"/inc/js/textResizer.js"></script>=0A=
+<script type=3D"text/javascript" src=3D"/inc/js/linkChanger.js"></script>=0A=
+-->
+<META content=3D"MSHTML 6.00.2800.1226" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3DHeader><A class=3DimgLink =
+href=3D"http://www.webstandards.org/"><IMG id=3Dlogo=20
+height=3D100 alt=3D"Web Standards Project logo"=20
+src=3D"http://www.webstandards.org/img/logo.gif" width=3D103></A>=20
+<DIV id=3DheaderText>
+<DIV id=3Dintro><A id=3DlogoLink =
+href=3D"http://www.webstandards.org/">The Web=20
+Standards Project</A> is a grassroots coalition fighting for <A=20
+href=3D"http://www.webstandards.org/about/">standards</A> that ensure =
+simple,=20
+affordable access to web technologies for all.</DIV></DIV></DIV>
+<DIV id=3DSiteNav>
+<UL>
+  <LI><A href=3D"http://www.webstandards.org/">home</A>=20
+  <LI><A href=3D"http://www.webstandards.org/about/">about</A>=20
+  <LI><A href=3D"http://www.webstandards.org/act/">act!</A>=20
+  <LI class=3Dactive><A =
+href=3D"http://www.webstandards.org/learn/">learn</A>=20
+  <UL>
+    <LI><A href=3D"http://www.webstandards.org/learn/faq/">faq</A>=20
+    <LI><A =
+href=3D"http://www.webstandards.org/learn/glossary/">glossary</A>=20
+    <LI><A href=3D"http://www.webstandards.org/learn/orgs/">orgs</A>=20
+    <LI class=3Dactive><A=20
+    href=3D"http://www.webstandards.org/learn/reference/">reference</A>=20
+    <LI><A =
+href=3D"http://www.webstandards.org/learn/resources/">resources</A> <!-- =
+<li><a href=3D"/learn/snippets/">snippets</a></li> --><!-- <li><a =
+href=3D"/learn/standards/">standards</a></li> --><!-- <li><a =
+href=3D"/learn/technology/">technology</a></li> -->
+    <LI><A =
+href=3D"http://www.webstandards.org/learn/templates/">templates</A> <!-- =
+<li><a href=3D"/learn/tools/">tools</a></li> --></LI></UL>
+  <LI><A href=3D"http://www.webstandards.org/opinion/">opinion</A>=20
+  <LI><A href=3D"http://www.webstandards.org/press/">press</A> =
+</LI></UL>
+<DIV id=3Dpreferences></DIV>
+<DIV id=3DlinkPreferences></DIV></DIV>
+<DIV id=3DMainText>
+<DIV class=3Dpadder>
+<H1>Browser Problems with the XML Prolog</H1>
+<P>Using the XML prolog in XHTML documents is a practice that is =
+<EM>recommended=20
+but not required</EM> by the W3C. So, it's up to you whether to use it =
+or to=20
+leave it out. Here's an example of what the prolog looks like:</P>
+<P><CODE>&lt;?xml version=3D"1.0" encoding=3D"UTF-8" ?&gt;</CODE></P>
+<P>Some browsers have difficulty upon encountering the XML Prolog. In =
+some=20
+cases, the browser will render all the markup as text. In other cases, =
+when a=20
+browser has some XML support, it might attempt to render the document as =
+an XML=20
+tree. To avoid these problems, many practicing web professionals prefer =
+to leave=20
+the prolog off. This table will help you make that decision by showing =
+you which=20
+browsers have known problems with the XML prolog.</P>
+<TABLE title=3D"Browser Problems with XML Prolog" width=3D"90%" =
+border=3D1>
+  <TBODY>
+  <TR>
+    <TD>Browser Type &amp; Version</TD>
+    <TD>Problems with XML Prolog</TD></TR>
+  <TR>
+    <TD>Amaya 3.1</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Lynx 2.8.1</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Internet Explorer 3.0, Windows</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Internet Explorer 3.0, Macintosh</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Internet Explorer 4.0, Windows</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Internet Explorer 4.0, Macintosh</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Internet Explorer 4.5, Macintosh</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Internet Explorer 5.0x</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Internet Explorer 6.0</TD>
+    <TD>Potential Compliance Mode problems due to DOCTYPE =
+switching</TD></TR>
+  <TR>
+    <TD>Mosaic 3.0</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Netscape 1.0</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Netscape 2.02</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Netscape 3.04</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Netscape 4.0</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Netscape 4.01</TD>
+    <TD>Yes</TD></TR>
+  <TR>
+    <TD>Netscape 4.02</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Netscape 6.0+</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Opera 3.21</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Opera 3.51</TD>
+    <TD>No</TD></TR>
+  <TR>
+    <TD>Opera 3.60+</TD>
+    <TD>Some problems reported</TD></TR>
+  <TR>
+    <TD>Mozilla</TD>
+    <TD>Some problems reported with certain =
+builds</TD></TR></TBODY></TABLE>
+<P>Credits: The information in this table was compiled from testing =
+performed by=20
+members of the <A =
+href=3D"http://groups.yahoo.com/group/XHTML-L/">XHTML-L</A>=20
+discussion list.</P></DIV>
+<DIV class=3Dpadder id=3Dfooter><A=20
+href=3D"http://www.webstandards.org/legal/">Legal</A> </DIV></DIV>
+<DIV id=3DSubNav>
+<DIV class=3Dpadder><!--include =
+virtual=3D"/inc/nav/learn/reference/contextual.inc" =
+--></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01C370D7.1351E6C0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.webstandards.org/img/logo.gif
+
+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
+
+------=_NextPart_000_0000_01C370D7.1351E6C0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.webstandards.org/inc/css/wsp.css
+
+BODY {
+	BACKGROUND: #fff; COLOR: #000
+}
+.blog .post {
+	BACKGROUND-POSITION: center bottom; BACKGROUND-IMAGE: =
+url(/img/buzz_separator.gif); BACKGROUND-REPEAT: no-repeat
+}
+CODE {
+	COLOR: #cc6600
+}
+A {
+	FONT-WEIGHT: bold; COLOR: #930; TEXT-DECORATION: none
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #930; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #622
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+#SiteNav UL {
+	COLOR: white
+}
+#SiteNav LI {
+	COLOR: white
+}
+DIV.example {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+IMG {
+	BORDER-RIGHT: white 0px solid; BORDER-TOP: white 0px solid; =
+BORDER-LEFT: white 0px solid; COLOR: white; BORDER-BOTTOM: white 0px =
+solid
+}
+A.imgLink {
+	BORDER-RIGHT: white 0px solid; BORDER-TOP: white 0px solid; =
+BORDER-LEFT: white 0px solid; COLOR: white; BORDER-BOTTOM: white 0px =
+solid
+}
+#intro {
+	COLOR: #333
+}
+#quote {
+	COLOR: #333
+}
+#quote {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid
+}
+#Header {
+	BACKGROUND-POSITION: center bottom; BACKGROUND-IMAGE: =
+url(/img/line.gif); BACKGROUND-REPEAT: no-repeat
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-RIGHT-WIDTH: 0px
+}
+#SiteNav A {
+	COLOR: #930; BACKGROUND-COLOR: #fff
+}
+#SiteNav LI.active LI A {
+	COLOR: #930; BACKGROUND-COLOR: #fff
+}
+#SiteNav LI.active LI.active LI A {
+	COLOR: #930; BACKGROUND-COLOR: #fff
+}
+#SiteNav A:hover {
+	BACKGROUND-COLOR: #eee; TEXT-DECORATION: none
+}
+#SiteNav LI.active LI A:hover {
+	BACKGROUND-COLOR: #eee; TEXT-DECORATION: none
+}
+#SiteNav LI.active LI.active LI A:hover {
+	BACKGROUND-COLOR: #eee; TEXT-DECORATION: none
+}
+#SiteNav LI.active A {
+	BACKGROUND-COLOR: #eee
+}
+#SiteNav LI.active LI.active A {
+	BACKGROUND-COLOR: #eee
+}
+#SiteNav LI.active LI.active LI.active A {
+	BACKGROUND-COLOR: #eee
+}
+DIV.postMetaInfo {
+	BORDER-LEFT: black 1px solid
+}
+DIV.code {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BACKGROUND: =
+#f0f0f0; BORDER-LEFT: #999 1px solid; COLOR: #930; BORDER-BOTTOM: #999 =
+1px solid
+}
+.update {
+	BACKGROUND: white; MARGIN-BOTTOM: 15px; COLOR: #999999
+}
+.strike {
+	TEXT-DECORATION: line-through
+}
+BODY {
+	FONT-SIZE: small; FONT-FAMILY: Georgia, serif; voice-family: inherit
+}
+CODE {
+	FONT-SIZE: small; FONT-FAMILY: Georgia, serif; voice-family: inherit
+}
+PRE {
+	FONT-SIZE: small; FONT-FAMILY: Georgia, serif; voice-family: inherit
+}
+UNKNOWN {
+	FONT-SIZE: small
+}
+DIV.postMetaInfo {
+	FONT-SIZE: x-small; FONT-FAMILY: Verdana, Helvetica, sans-serif; =
+voice-family: inherit
+}
+.authors {
+	FONT-SIZE: x-small; FONT-FAMILY: Verdana, Helvetica, sans-serif; =
+voice-family: inherit
+}
+UNKNOWN {
+	FONT-SIZE: x-small
+}
+CODE {
+	FONT-SIZE: 1em; FONT-FAMILY: 'Andale Mono', Courier, monospace
+}
+PRE {
+	FONT-SIZE: 1em; FONT-FAMILY: 'Andale Mono', Courier, monospace
+}
+H1 {
+	FONT-FAMILY: "Trebuchet MS", serif
+}
+H2 {
+	FONT-FAMILY: "Trebuchet MS", serif
+}
+H3 {
+	FONT-FAMILY: "Trebuchet MS", serif
+}
+#SiteNav {
+	FONT-FAMILY: "Trebuchet MS", serif
+}
+#SubNav {
+	FONT-FAMILY: "Trebuchet MS", serif
+}
+H1 {
+	FONT-SIZE: 1.4em; TEXT-TRANSFORM: uppercase; LETTER-SPACING: 0.2em
+}
+H2 {
+	FONT-SIZE: 1.2em
+}
+H3 {
+	FONT-SIZE: 1em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+H3 {
+	TEXT-TRANSFORM: uppercase; LETTER-SPACING: 0.2em
+}
+H4 {
+	FONT-WEIGHT: normal; FONT-STYLE: italic
+}
+.abbr {
+	FONT-SIZE: 0.9em; TEXT-TRANSFORM: uppercase; LETTER-SPACING: 0.1em
+}
+abbr {
+	FONT-SIZE: 0.9em; TEXT-TRANSFORM: uppercase; LETTER-SPACING: 0.1em
+}
+H2.sub {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.3em; FONT-STYLE: italic
+}
+DIV.code {
+	FONT-SIZE: 95%; LINE-HEIGHT: 120%; FONT-FAMILY: 'Andale Mono', Courier, =
+monospace; WHITE-SPACE: pre
+}
+.update {
+	FONT-SIZE: 85%
+}
+P.skipnav A {
+	FONT-SIZE: 1px; BACKGROUND: white; COLOR: white; TEXT-DECORATION: none
+}
+P.skipnav A:link {
+	FONT-SIZE: 1px; BACKGROUND: white; COLOR: white; TEXT-DECORATION: none
+}
+P.skipnav A:visited {
+	FONT-SIZE: 1px; BACKGROUND: white; COLOR: white; TEXT-DECORATION: none
+}
+P.skipnav A:hover {
+	FONT-SIZE: 1px; BACKGROUND: white; COLOR: white; TEXT-DECORATION: none
+}
+P.skipnav A:active {
+	FONT-SIZE: 1px; BACKGROUND: white; COLOR: white; TEXT-DECORATION: none
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; LINE-HEIGHT: 1.8; PADDING-TOP: 20px
+}
+P.skipnav {
+	HEIGHT: 1px
+}
+.blog .post {
+	PADDING-BOTTOM: 1em
+}
+DIV.example {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: =
+0.25em 0px; PADDING-TOP: 10px
+}
+IMG.imgRight {
+	FLOAT: right
+}
+#Header {
+	MARGIN: 0px 25px; HEIGHT: 130px
+}
+#headerText {
+	LEFT: 30%; POSITION: absolute; TOP: 20px; TEXT-ALIGN: right
+}
+#intro {
+	MARGIN-BOTTOM: 5px
+}
+#quote {
+	MARGIN-BOTTOM: 10px; PADDING-TOP: 5px
+}
+#MainText {
+	LEFT: 0px; WIDTH: 75%; POSITION: absolute; TOP: 170px
+}
+#MainText DIV.padder {
+	MARGIN-LEFT: 210px; MARGIN-RIGHT: 25px
+}
+#SiteNav {
+	Z-INDEX: 1; LEFT: 25px; WIDTH: 160px; POSITION: absolute; TOP: 190px
+}
+#SubNav {
+	Z-INDEX: 2; LEFT: 75%; POSITION: absolute; TOP: 170px
+}
+#SubNav DIV.padder {
+	MARGIN-RIGHT: 25px
+}
+#footer {
+	MARGIN: 40px 0px; TEXT-ALIGN: center
+}
+ADDRESS {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DIR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+MENU {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+#subnav P {
+	LINE-HEIGHT: normal
+}
+UNKNOWN {
+	MARGIN-TOP: -0.66em; TEXT-INDENT: 1.8em
+}
+DIR {
+	MARGIN: 0.67em 0px
+}
+DL {
+	MARGIN: 0.67em 0px
+}
+FIELDSET {
+	MARGIN: 0.67em 0px
+}
+FORM {
+	MARGIN: 0.67em 0px
+}
+MENU {
+	MARGIN: 0.67em 0px
+}
+OL {
+	MARGIN: 0.67em 0px
+}
+P {
+	MARGIN: 0.67em 0px
+}
+PRE {
+	MARGIN: 0.67em 0px
+}
+UL {
+	MARGIN: 0.67em 0px
+}
+UL {
+	LIST-STYLE-TYPE: disc
+}
+OL {
+	MARGIN: 0.33em 0px
+}
+UL {
+	MARGIN: 0.33em 0px
+}
+H1 {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+H2 {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+H3 {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+H4 {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+H5 {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+H6 {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+DT {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+TH {
+	MARGIN: 1.66em 0px 0px; TEXT-ALIGN: left
+}
+H1 {
+	MARGIN: 0px 0px 1em
+}
+LI {
+	MARGIN: 0px 0px 0px 1.8em
+}
+DD {
+	MARGIN: 0px 0px 0.66em 1.8em
+}
+BLOCKQUOTE {
+	MARGIN: 0.66em 0px 0.66em 1.8em
+}
+IMG.imgRight {
+	MARGIN-TOP: 10px; FLOAT: right; MARGIN-LEFT: 10px
+}
+H2.sub {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 1.5em
+}
+#SiteNav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#SiteNav LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#SiteNav UL UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 0px 10px; PADDING-TOP: 0px
+}
+#SiteNav A {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav LI.active LI A {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav LI.active LI.active LI A {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav A:hover {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav LI.active LI A:hover {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav LI.active LI.active LI A:hover {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav LI.active A {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav LI.active LI.active A {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SiteNav LI.active LI.active LI.active A {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em
+}
+#SubNav P {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 0px
+}
+#headerText {
+	WIDTH: 67%
+}
+DIV.postMetaInfo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; FLOAT: right; PADDING-BOTTOM: =
+10px; MARGIN: 5px 0px 0px 12px; WIDTH: 200px; PADDING-TOP: 10px
+}
+H2.postTitle {
+	FONT-SIZE: 1em; MARGIN-BOTTOM: 0.66em; TEXT-TRANSFORM: uppercase; =
+LETTER-SPACING: 0.2em
+}
+H3.postTitle {
+	FONT-SIZE: 1em; MARGIN-BOTTOM: 0.66em; TEXT-TRANSFORM: uppercase; =
+LETTER-SPACING: 0.2em
+}
+DIV.code {
+	DISPLAY: block; OVERFLOW: auto; WIDTH: 100%
+}
+.alert {
+	BORDER-RIGHT: #930 4px double; PADDING-RIGHT: 1em; BORDER-TOP: #930 4px =
+double; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; MARGIN: 1em; =
+BORDER-LEFT: #930 4px double; COLOR: #c00; PADDING-TOP: 1em; =
+BORDER-BOTTOM: #930 4px double; BACKGROUND-COLOR: #fc9
+}
+
+------=_NextPart_000_0000_01C370D7.1351E6C0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.webstandards.org/inc/css/print.css
+
+#Header {
+	DISPLAY: none
+}
+#SiteNav {
+	DISPLAY: none
+}
+#preferences {
+	DISPLAY: none
+}
+#SubNav {
+	DISPLAY: none
+}
+#MainText {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; LEFT: 0px; =
+PADDING-BOTTOM: 0px! important; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: =
+0px! important; POSITION: relative; TOP: 0px
+}
+#MainText .padder {
+	MARGIN: 0px
+}
+.skipnav {
+	DISPLAY: none
+}
+
+------=_NextPart_000_0000_01C370D7.1351E6C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.webstandards.org/inc/js/wsp.js
+
+//=0A=
+// Author: various, but primarily Eric Costello=0A=
+// Maintainers: David Eisenberg, Steven Champeon=0A=
+// Release: 1.0=0A=
+// $RCSfile: wsp.js,v $=0A=
+// $Revision: 1.20 $=0A=
+// $Date: 2002/08/13 02:10:38 $=0A=
+//=0A=
+=0A=
+// writes nav4-specific stylesheet=0A=
+if (document.layers) { document.writeln('<link rel=3D"stylesheet" =
+type=3D"text/css" href=3D"/inc/css/wsp_ns4_only.css" />')=0A=
+}=0A=
+=0A=
+// cookie functions modified from code found at Alexei Kourbatov's=0A=
+// http://javascripter.net/faq/=0A=
+function setCookie(name,value) {=0A=
+ document.cookie =3D name + "=3D" + escape(value)=0A=
+  + ";path=3D/;expires=3D12/26/2020";=0A=
+}=0A=
+	=0A=
+function readCookie(name) {=0A=
+ var c =3D "" + document.cookie;=0A=
+ var i =3D c.indexOf(name);=0A=
+ if ((i =3D=3D -1) || (name =3D=3D "")) {=0A=
+  return "";=0A=
+ }=0A=
+ var l =3D c.indexOf(';',i);=0A=
+ if (l =3D=3D -1) {=0A=
+  l =3D c.length;=0A=
+ }=0A=
+ return unescape(c.substring(i+name.length+1,l));=0A=
+}=0A=
+=0A=
+=0A=
+// from http://javascriptworld.com/scripts/chap09/script02.html=0A=
+=0A=
+if (document.layers) {=0A=
+ origWidth =3D window.innerWidth;=0A=
+ origHeight =3D window.innerHeight;=0A=
+}=0A=
+=0A=
+function resizeFix() {=0A=
+ if (document.layers) {=0A=
+  if ((window.innerWidth !=3D origWidth) ||=0A=
+      (window.innerHeight !=3D origHeight)) {=0A=
+   window.location.reload()=0A=
+  }=0A=
+ }=0A=
+}=0A=
+=0A=
+window.onresize =3D resizeFix;=0A=
+window.onload =3D init;=0A=
+=0A=
+function init() {=0A=
+ initRollOvers();=0A=
+// writeControls();=0A=
+// writeLinkControls(); =0A=
+// updateExternalLinks();=0A=
+}=0A=
+=0A=
+function initRollOvers() {=0A=
+ var logo;=0A=
+ if (document.getElementById) {=0A=
+  logo =3D document.getElementById('logo');=0A=
+ } else {=0A=
+  return false;=0A=
+ }=0A=
+ /*if (document.all) {*/=0A=
+  logo.onmouseover =3D swapI;=0A=
+  logo.onmouseout =3D swapI;=0A=
+ /*} else {=0A=
+  logo.addEventListener('mouseover',swapI,false);=0A=
+  logo.addEventListener('mouseout',swapI,false);=0A=
+ }*/=0A=
+  return true;=0A=
+}=0A=
+=0A=
+function swapI(e) {=0A=
+ e =3D (e) ? e : event;=0A=
+ thisI =3D (e.srcElement) ? e.srcElement : e.target;=0A=
+ if((thisI.status !=3D 'a') &&=0A=
+    (thisI.status !=3D 'p')) {=0A=
+  thisI.src =3D '/img/' + thisI.id + '_a.gif';=0A=
+  thisI.status=3D'a';=0A=
+ } else if(thisI.status !=3D 'p') {=0A=
+  thisI.src=3D'/img/'+thisI.id+'.gif';=0A=
+  thisI.status=3D'';=0A=
+ }=0A=
+}=0A=
+
+------=_NextPart_000_0000_01C370D7.1351E6C0--

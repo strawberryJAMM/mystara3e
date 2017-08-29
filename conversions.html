@@ -1,0 +1,1197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+  [START COMMENT]
+  Apparently, an XML prolog makes some browsers die.
+  To continue providing it, I need server-side browser detection
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+  [END COMMENT]
+-->
+<html dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml"><!-- #BeginTemplate "Templates/mystara3e.dwt" --><!-- DW6 -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0" />
+<meta name="ProgId" content="FrontPage.Editor.Document" />
+<meta name="author" content="Jenni A.M. Merrifield; The Mystara-3E Project Team" />
+<meta name="copyright" content="2001,2002, &amp; 2003, The Mystara-3E Project Team" />
+<meta name="robots" content="all" />
+<!-- #BeginEditable "doctitle" -->
+<title>Mystara3E: 3E Conversions</title>
+<!-- #EndEditable -->
+<link rel="stylesheet" type="text/css" href="Styles/mystara3e.css" />
+</head>
+
+<body>
+
+<div id="Ahem">
+    <p><strong><em class="mystarared">If you can see this box, your browser or internet 
+    device may not fully comply with current Web Standards</em></strong></p>
+    <p>This site has been designed with
+    <a href="http://www.webstandards.org/upgrade/" title="Download a browser that complies with Web Standards.">Web Standards</a> 
+    compliance in mind. It conforms to XHTML 1.0 Transitional and CSS 2.0 and will 
+    look its best when viewed in a browser that also complies with these standards. 
+    However, care has also been taken to ensure that the content of this site will 
+    remain accessible to anyone, regardless of which browser or internet device they 
+    may be using to view it.</p>
+</div>
+<div class="invisible" style="float: right">
+    <a href="#TOP" title="Skip past the menu to the start of the content." accesskey="S"><u>S</u>kip over menu</a>.</div>
+<div id="Menu" style="clear: right">
+<table style="line-height: 0px" width="180" cellpadding="0" cellspacing="0" 
+border="0" align="center">
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="180" 
+        height="5" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_Scroll.gif" width="180" height="27" 
+        hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_Mystara3E.gif" width="180" 
+        height="58" hspace="0" vspace="0" alt="Mystara&#8482; 3E" /></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_Scroll.gif" width="180" height="27" 
+        hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="180" 
+        height="5" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td rowspan="2">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="6" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+        <td colspan="2" rowspan="2">
+        <img src="Images/menu/M3E-Menu_CornerTopLeft.gif" width="10" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+        <td align="center" valign="top" 
+        style="background: #CC9900 url('Images/menu/M3E-Menu_BorderTop.gif') fixed top center;">
+        <img src="Images/menu/M3E-Menu_BorderTop.gif" width="148" height="5" 
+        hspace="0" vspace="0" alt="" /></td>
+        <td colspan="2" rowspan="2">
+        <img src="Images/menu/M3E-Menu_CornerTopRight.gif" width="10" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+        <td rowspan="2">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="6" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" style="background: #660099">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="148" 
+        height="5" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td><img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" 
+        width="6" hspace="0" vspace="0" alt="" /></td>
+        <td valign="top" align="center" 
+        style="background: #CC9900 url('Images/menu/M3E-Menu_BorderLeft.gif') fixed top center;">
+        <img src="Images/menu/M3E-Menu_BorderLeft.gif" width="5" 
+        height="296" hspace="0" vspace="0" alt="" /></td>
+        <td valign="top" align="center" style="background: #660099;">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="5" 
+        height="296" hspace="0" vspace="0" alt="" /></td>
+        <td style="background: #660099;"><span class="dblspace" style="text-align: center;">
+        <span class="nowrap"><a class="navigation" 
+        title="Return to the Mystara-3E Home Page" href="main.html">Home</a></span><br />
+        <hr class="mystaragold" style="width: 25%;"/>
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;About Mystara&quot; - all about the background of the Mystara campaign setting and the Mystara-3E project" 
+        href="about.html">About&nbsp;Mystara</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Regions of Mystara&quot; - this section is not yet complete" 
+        href="regions.html">Regions&nbsp;of&nbsp;Mystara</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Races of Mystara&quot; - 3E conversions of common and uncommon Mystaran PC races - contents updated Feb 01, 2004" 
+        href="races.html">Races&nbsp;of&nbsp;Mystara</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Classes of Mystara&quot; - this section is not yet complete" 
+        href="classes.html">Classes&nbsp;of&nbsp;Mystara</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Skills and Feats&quot; - new skills, new uses for old skills and new feats for Mystara - contents updated Jun 19, 2003" 
+        href="skillsfeats.html">Skills&nbsp;and&nbsp;Feats</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Equipment&quot; - 3E equivalents for equipment found in Mystara source material - contents updated Feb 01, 2004" 
+        href="equipment.html">Equipment</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;The Immortals Above&quot; - domains, favored weapons, &amp;c. of the Immortals worshiped across Mystara - contents updated Jun 19, 2003" 
+        href="immortals.html">The&nbsp;Immortals&nbsp;Above</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Magic in Mystara&quot; - new spells and clerical domains for Mystara campaigns - contents updated Jun 19, 2003" 
+        href="magic.html">Magic&nbsp;in&nbsp;Mystara</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Monstrous Manual&quot; - this section is not yet complete" 
+        href="monsters.html">Monstrous&nbsp;Manual</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Mystaran Multiverse&quot; - planar cosmology of the Mystaran Multiverse - contents updated Feb 01, 2004" 
+        href="multiverse.html">Mystaran&nbsp;Multiverse</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;3E Conversions&quot; - 0E to 3E conversion guidelines and converted material - contents updated Aug 08, 2003" 
+        href="conversions.html">3E&nbsp;Conversions</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Mystaran Lore&quot; - Annotated bibliography of all source material used in this conversion - contents updated Aug 02, 2003" 
+        href="lore.html">Mystaran&nbsp;Lore</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Acknowledgements&quot; - find out who to praise (or blame) for the material available this site" 
+        href="thanks.html">Acknowledgements</a></span><br />
+        <span class="nowrap"><a class="navigation" 
+        title="&quot;Legal Mumbo-Jumbo&quot; - like it says" 
+        href="legal.html">Legal&nbsp;Mumbo-Jumbo</a></span></span></span></td>
+        <td valign="top" align="center" style="background: #660099;">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="5" 
+        height="296" hspace="0" vspace="0" alt="" /></td>
+        <td valign="top" align="center" 
+        style="background: #CC9900 url('Images/menu/M3E-Menu_BorderRight.gif') fixed top center;">
+        <img src="Images/menu/M3E-Menu_BorderRight.gif" width="5" 
+        height="296" hspace="0" vspace="0" alt="" /></td>
+        <td><img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" 
+        width="6" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td rowspan="2">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="6" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+        <td colspan="2" rowspan="2">
+        <img src="Images/menu/M3E-Menu_CornerBottomLeft.gif" width="10" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+        <td align="center" valign="top" style="background: #660099">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="148" 
+        height="5" hspace="0" vspace="0" alt="" /></td>
+        <td colspan="2" rowspan="2">
+        <img src="Images/menu/M3E-Menu_CornerBottomRight.gif" width="10" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+        <td rowspan="2">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="6" 
+        height="10" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td valign="top" align="center" 
+        style="background: #CC9900 url('Images/menu/M3E-Menu_BorderBottom.gif') fixed bottom center;">
+        <img src="Images/menu/M3E-Menu_BorderBottom.gif" width="148" 
+        height="5" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="180" 
+        height="5" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_Scroll.gif" width="180" height="27" 
+        hspace="0" vspace="0" alt="" /></td>
+    </tr>
+    <tr>
+        <td align="center" colspan="7">
+        <img src="Images/menu/M3E-Menu_TransparentOnePixel.gif" width="180" 
+        height="5" hspace="0" vspace="0" alt="" /></td>
+    </tr>
+</table>
+</div>
+<div id="Title">
+    <h1><a id="TOP" name="TOP"></a>
+  <!-- #BeginEditable "title" -->3E Conversions<!-- #EndEditable --></h1>
+</div>
+<div id="Body">
+    <!-- #BeginEditable "body" -->
+<div id="Body0">
+	<p class="initial">This page contains conversion guidelines for
+	<strong class="mystarared">Mystara</strong> campaigns.&nbsp; It provides step-by-step 
+	explanations on how you may convert pre-existing 0E D&amp;D characters (PCs and 
+	NPCs) into 3E in a way that is consistent with the specifics of the
+	<strong class="mystarared">Mystara-3E Conversion Project</strong>.</p>
+	<p>We will eventually also include completed conversions, covering several of 
+	the more prominent NPCs found throughout the 
+	<strong class="mystarared">Mystara</strong> campaign settings and many 
+	adventure modules that are explicitly set or commonly believed to be located 
+	somewhere in 
+	<strong class="mystarared">Mystara</strong>.&nbsp; All conversions will be based on these guidelines 
+	and will be compliant with the &quot;ESD Conversion Agreement&quot; <strong>[</strong><a href="lore.html#d20-ESD">d20-ESD</a><strong>]</strong></p>
+	<p class="stb"><em><strong>Quick Links </strong>into this file</em></p>
+	<ul>
+		<li><a href="#ConversionGuidelines">Conversion Guidelines</a>
+		<ul>
+			<li><a href="#Step2-3ECharLevel">Step 1: Review Mystara-3E Race 
+			Details</a>
+			</li>
+			<li><a href="#Step2-3ECharLevel">Step 2: Calculate 3E Character Level</a>
+			<ul>
+				<li><a href="#Step2A-3ECharLevel-Human">Step 2A: Human Character 
+				Level</a></li>
+				<li><a href="#Step2B-3ECharLevel-StdNonHuman">Step 2B: Demihuman Character Level</a>
+				<ul type="disc">
+					<li><a href="#Step2Bi-3ECharLevel-Halfling">Step 2B.i: 
+					Halfling 
+					Character Level</a></li>
+					<li><a href="#Step2Bii-3ECharLevel-Dwarf">Step 2B.ii: Dwarf 
+					Character Level</a></li>
+					<li><a href="#Step2Biii-3ECharLevel-Elf">Step 2B.iii: Elf 
+					and Human Forester Character 
+					Level</a></li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+			<li><a href="#Step3-3EClasses">Step 3: Determine 3E Classes and 
+			Class Levels</a>
+			<ul>
+				<li><a href="#Step3A-3EClasses-Single">Step 3A: Class Levels for &quot;Single Class&quot; 
+				0E Classes</a>
+				<ul type="disc">
+				    <li><a href="#Step3Ai-3EClasses-Single-Human">Step 3A.i: Human 
+					Class Levels</a></li>
+				    <li><a href="#Step3Aii-3EClasses-Single-Demihuman">Step 3A.ii: 
+					Dwarf and Halfling Class Levels</a></li>
+				</ul>
+				</li>
+				<li><a href="#Step2B-3EClasses-Multi">Step 3B: Class Levels for 
+				&quot;Multiclass&quot; 0E Classes</a>
+				<ul type="disc">
+				    <li><a href="#Step2Bi-3EClasses-Multi-Elf">Step 3B.i: Elf and Human Forester 
+					Class Levels</a></li>
+				</ul></li>
+			</ul>
+			<a href="#Step3-3EClasses">Step 4: Assigning 3E Skill Points</a>
+			<ul>
+				<li><em class="mystarared">More to come...</em></li>
+			</ul>
+			<a href="#Step3-3EClasses">Step 5: Selecting 3E Feats</a>
+			<ul>
+				<li><em class="mystarared">More to come...</em></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+		<li><a href="#CompletedConversions">Completed Conversions</a>
+		<ul>
+			<li><a href="#CompletedConversions-NPC">Prominent NPCs of Mystara</a>
+			<ul>
+				<li><em class="mystarared">TBD</em></li>
+			</ul>
+			</li>
+			<li><a href="#CompletedConversions-Adventures">Adventures in Mystara</a>
+			<ul>
+				<li><em class="mystarared">TBD</em></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	<h2 class="ltb"><a name="ConversionGuidelines" id="ConversionGuidelines">
+	</a>Conversion Guidelines</h2>
+	<p></p>
+	<p class="initial">This section includes a standard, step by step process for converting 
+	any existing 0E D&amp;D Character into a 3E D&amp;D character compatible with a
+	<strong class="mystarared">Mystara-3E</strong> campaign.&nbsp; It includes detailed 
+	steps for each of the following:</p>
+	<ol>
+		<li><a href="#Step2-3ECharLevel">Review Mystara-3E Race Details</a></li>
+		<li><a href="#Step2-3ECharLevel">Calculating 3E Character Level</a></li>
+		<li><a href="#Step3-3EClasses">Determining 3E Character Classes and Class Levels</a></li>
+		<li>Assigning 3E Skill Points <em class="mystarared">{still under construction}</em></li>
+		<li>Selecting 3E Feats <em class="mystarared">{still under construction}</em></li>
+	</ol>
+	<p>We have assumed that 
+	<strong class="mystarared">Mystaran</strong> characters 
+	from 2E D&amp;D sources will be converted using the standard 2E D&amp;D to 3E D&amp;D conversion 
+	guidelines.&nbsp; </p>
+	<div class="sidebar float-wide">
+		<div class="invisible">
+			<a title="Skip past the sidebar to the content." accesskey="S" href="#endConsiderSidebar"><u>S</u>kip over sidebar</a>.</div>
+		<h4>Things to Consider Before Converting Your Character</h4>
+		<p class="initial">Before you start converting a 
+		<strong class="mystarared">Mystaran</strong> character 
+		using the following steps, you might want to keep 
+		the following facts in mind:</p>
+		<ol type="a">
+			<li>The primary audience for these guidelines is the DM who is seeking to convert 0E NPCs 
+			into 3E format</li>
+			<li>The focus was on simplicity and ease of use and not on 
+			conversion flexibility.</li>
+			<li>Except for the process of calculating 3E character level, these 
+			steps are intended to be general guidelines and are in no way intended 
+			to represent the only way 
+			a 0E character could be converted into 3E and still fit within the context 
+			of a <strong class="mystarared">Mystara-3E</strong> campaign. </li>
+		</ol>
+		<p>Players with pre-existing 0E PCs may want to refer to this process as 
+		their PCs are converted, but we encourage them (and their DMs) to consider 
+		options outside of these guidelines, especially with respect to prestige 
+		classes and possible multiclassing opportunities, based on the PC&#39;s history and general 
+		character concept.</p>
+		<p>DMs should also consider whether any NPC they are about to convert 
+		is a strategic NPC.&nbsp; This process works best for secondary 
+		NPCs&#8212;the ones who are there to fill out the population of the town or the 
+		staff of the manor, and who the PCs may interact with to obtain useful (or 
+		misleading) information, but that are not absolutely essential to the 
+		adventure.&nbsp; Strategic 
+		NPCs&#8212;the primary villains and/or victims without whom there would be no 
+		adventure&#8212;will still convert into a reasonable 3E character version using these 
+		guidelines, 
+		but may often benefit from being treated like PCs and converted 
+		with a more flexible mindset.</p>
+		<a id="endConsiderSidebar" name="endConsiderSidebar"></a>
+	</div>
+	<h3><a name="Step1-3ERace" id="Step1-3ERace"></a>Step 1: Review 
+	Mystara-3E Race Details</h3>
+	<p class="initial">The first step in the conversion process is to ensure 
+	that you are familiar with the details of the <strong class="mystarared">Mystara-3E</strong> 
+	version of the character&#39;s race.&nbsp; The Mystara-3E conversion uses 
+	<strong class="mystarared">Mystaran</strong> 
+	sub-races for most standard 3E character races and also provides 3E version 
+	of races that are unique to the <strong class="mystarared">Mystaran</strong> settings.&nbsp; 
+	You can click the following links to access the information for each of the 
+	four core races found in 0E D&amp;D sources.&nbsp; Racial information available 
+	for additional races can be obtained by visiting the <strong><a href="races.html">
+	Races of Mystara</a></strong> page.</p>
+	<ul>
+		<li><a href="races.html#human-std">human, standard</a></li>
+		<li><a href="races.html#dwarf-rockborn">dwarf, Rockborn</a></li>
+		<li><a href="races.html#elf-wood">elf, wood</a></li>
+		<li><a href="races.html#halfling-hin">halfling, Hin</a></li>
+	</ul>
+	<h3><a name="Step2-3ECharLevel" id="Step2-3ECharLevel"></a>Step 2: Calculate 
+	3E Character Level</h3>
+	<p class="initial">Because humans in 0E could only advance in a single class 
+	and non-human races were treated as if their race was their class, the process 
+	to determine your character&#39;s effective 3E character level differ slightly depending 
+	on his race.</p>
+	<h4><a name="Step2A-3ECharLevel-Human" id="Step2A-3ECharLevel-Human"></a>2A: 
+	Human Character Level</h4>
+	<div class="sidebar float-right">
+		<div class="invisible">
+			<a title="Skip past the table to the content." accesskey="S" href="#end0eTo3eSidebar"><u>S</u>kip over table</a>.</div>
+		<div class="align-center">
+			<table id="table0eTo3e" width="100%" summary="This table charts the 3E D&amp;D effective character level for each class level of a 0E D&amp;D human">
+				<caption>Table C1: 0E Human Class Level to Effective 3E Character Level</caption>
+				<colgroup span="4" width="25%" class="align-center">
+				</colgroup>
+				<thead>
+				<tr>
+					<th>0E Human
+					Class<br />
+					Level</th>
+					<th>3E<br />
+					Character<br />
+					Level</th>
+					<th>0E Human
+					Class<br />
+					Level</th>
+					<th>3E<br />
+					Character<br />
+					Level</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>1-13</td>
+					<td>same level</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>14-15</td>
+					<td>14</td>
+					<td>26-27</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>16-17</td>
+					<td>15</td>
+					<td>28-29</td>
+					<td>21</td>
+				</tr>
+				<tr>
+					<td>18-19</td>
+					<td>16</td>
+					<td>30-31</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>20-21</td>
+					<td>17</td>
+					<td>32-33</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>22-23</td>
+					<td>18</td>
+					<td>34-35</td>
+					<td>24</td>
+				</tr>
+				<tr>
+					<td>24-25</td>
+					<td>19</td>
+					<td>36 &#8224;</td>
+					<td>25+</td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+		<p class="initial">&#8224; 0E Characters at 36th-level may convert to a 3E Character 
+		Level higher than 25th-level, based on how much time has passed and/or adventuring 
+		has occurred since she reached the maximum 0E class level.&nbsp; That is, 
+		it depends on how much additional XP the character has (or, for NPCs, could 
+		reasonably have) accumulated since achieving 36th-level. </p>
+		<a name="end0eTo3eSidebar" id="end0eTo3eSidebar"></a></div>
+	<p class="initial">If the 0E character is a <strong><a href="races.html#humans">human</a></strong>, his a 3E character level 
+	depends on his 0E class level, as described in the following paragraphs, 
+	with the exception of those with the <strong>Forester</strong> class from the <cite>
+	Dawn of the Emperors</cite> boxed set [<a href="lore.html#DotE">DotE</a>]. 
+	From a game mechanics point of view, human Foresters are identical to elves 
+	and must use the same rules as an elf&nbsp; 
+	when his effective 3E character level is calculated&mdash;see 
+	<a href="#Step2Biii-3ECharLevel-Elf">Section 2B.iii: Elf 
+	Character Level</a>, below.</p>
+	<p>For the first 14 levels, the human character&#39;s 3E character level is identical 
+	to his 0E class level, so a 0E character that is a 10th level magic user converts 
+	to a 10th-level character in 3E.</p>
+	<p>After 14th level, the human character&#39;s 3E character level rises by one level 
+	for every two additional 0E levels, rounded down, so a 0E character that is 
+	a 21st-level thief converts to a 17th-level character in 3E (14 levels from 
+	the first 14 class levels plus three levels from the following seven class levels).</p>
+	<p>We have included Table C1: 0E Class Level to Effective 3E Character Level as an aid 
+	to help you when converting your 0E human characters.&nbsp; Simply refer to the table 
+	to see which effective 3E Character level your 0E human&#39;s Class level converts 
+	to.</p>
+	<h4>
+	<a name="Step2B-3ECharLevel-StdNonHuman" id="Step2B-3ECharLevel-StdNonHuman">
+	</a>2B: Demihuman Character Level</h4>
+	<p class="initial">If the 0E character is a demihuman race, the basic 
+	methodology is to determine what their effective character level would be if 
+	they were a 0E human character and then map the result of that to an 
+	effective 3E character level using Table C1.</p>
+	<div class="sidebar float-left">
+		<div class="invisible">
+			<a title="Skip past the table to the content." accesskey="S" href="#end0eHalflingTo0eEcl">
+			<u>S</u>kip over table</a>.</div>
+		<div class="align-center">
+			<table id="table0eHalflingTo0eEcl" width="100%" summary="This table charts the 0E D&amp;D Halfling's effective 0E D&amp;D human character level">
+				<caption>Table C2: 0E Halfling Level to Effective 0E Human Class Level 
+				and Effective 3E Character Level</caption>
+				<colgroup span="3" class="align-center">
+					<col span="2" width="16%" />
+					<col span="1" width="17%" />
+				</colgroup>
+				<colgroup span="3" class="align-center">
+					<col span="2" width="16%" />
+					<col span="1" width="17%" />
+				</colgroup>
+				<thead>
+				<tr>
+					<th>0E halfling Class
+					Level</th>
+					<th>0E Human Class Level</th>
+					<th>3E Char Level</th>
+					<th>0E halfling<br />
+					Class
+					Level</th>
+					<th>0E Human Class
+					Level</th>
+					<th>3E Char
+					Level</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>1-8/A</td>
+					<td>same level</td>
+					<td>same level</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>8/B</td>
+					<td>11</td>
+					<td>11</td>
+					<td>8/G</td>
+					<td>22</td>
+					<td>18</td>
+				</tr>
+				<tr>
+					<td>8/C</td>
+					<td>14</td>
+					<td>14</td>
+					<td>8/H</td>
+					<td>24</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td>8/D</td>
+					<td>16</td>
+					<td>15</td>
+					<td>8/I</td>
+					<td>26</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>8/E</td>
+					<td>18</td>
+					<td>16</td>
+					<td>8/J</td>
+					<td>28</td>
+					<td>21</td>
+				</tr>
+				<tr>
+					<td>8/F</td>
+					<td>20</td>
+					<td>17</td>
+					<td>8/K</td>
+					<td>30</td>
+					<td>22</td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+		<a name="end0eHalflingTo0eEcl" id="end0eHalflingTo0eEcl"></a></div>
+	<h5>
+	<a name="Step2Bi-3ECharLevel-Halfling" id="Step2Bi-3ECharLevel-Halfling">
+	</a>2B.i: Halfling Character Level</h5>
+	<p class="initial">In standard 0E D&amp;D, the <strong>
+	<a href="races.html#halflings">halfling</a></strong> race was able to reach 8th 
+	level, at which point they were also granted &quot;Attack Rank A&quot;.&nbsp; Beyond that 
+	point, as they gained experience they continued to improve their abilities by 
+	obtaining additional Attack Ranks, lettered from B through K.</p>
+	<p>A halfling gains her first eight levels at a rate that more or less keeps 
+	her in line with her human companions, so the 8/A-level 0E halfling character 
+	is the equivalent of a 0E human with eight class levels.</p>
+	<p>The first two halfling Attack Ranks, B and C, are equal to three human class 
+	levels each, so the 8/C-level 0E halfling character is the equivalent of a 
+	0E human 
+	with 14 class levels, which is, in turn, the equivalent of a 3E character 
+	with 14 character levels.</p>
+	<p>The remaining eight halfling Attack Ranks, D through K, are equal to two 
+	human class level each, so the 8/I-level 0E halfling character is the equivalent 
+	of a human with 26 class levels, which is, in turn, the equivalent of a 3E 
+	character with 20 character 
+	levels.&nbsp; </p>
+	<p>We have included Table C2: 0E Halfling Level to Effective 0E Human Class 
+	Level and Effective 3E Character Level as an aid to help you when converting a 0E 
+	halfling characters.&nbsp; 
+	Simply refer to the table to see what your 0E halfling character&#39;s effective 0E Human Class Level and her effective 3E Character Level 
+	are.</p>
+	<div class="sidebar float-right">
+		<div class="invisible">
+			<a title="Skip past the table to the content." accesskey="S" href="#end0eDwarfTo0eEcl"><u>S</u>kip over table</a>.</div>
+		<div class="align-center">
+			<table id="table0eDwarfTo0eEcl" width="100%" summary="This table charts the 0E D&amp;D Dwarf's effective 0E D&amp;D human character level">
+				<caption>Table C3: 0E Dwarf Level to Effective 0E Human Class 
+				Level and Effective 3E Character 
+				Level</caption>
+				<colgroup span="3" class="align-center">
+					<col span="2" width="16%" />
+					<col span="1" width="17%" />
+				</colgroup>
+				<colgroup span="3" class="align-center">
+					<col span="2" width="16%" />
+					<col span="1" width="17%" />
+				</colgroup>
+				<thead>
+				<tr>
+					<th>0E dwarf<br />
+					Class
+					Level</th>
+					<th>0E Human Class
+					Level</th>
+					<th>3E Char Level</th>
+					<th>0E dwarf<br />
+					Class
+					Level</th>
+					<th>0E Human Class
+					Level</th>
+					<th>3E Char
+					Level</th>
+				</tr>
+                </thead>
+				<tbody>
+				<tr>
+					<td>1-12/C</td>
+					<td>same level</td>
+					<td>same level</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>12/D</td>
+					<td>14</td>
+					<td>14</td>
+					<td>12/I</td>
+					<td>24</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td>12/E</td>
+					<td>16</td>
+					<td>15</td>
+					<td>12/J</td>
+					<td>26</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>12/F</td>
+					<td>18</td>
+					<td>16</td>
+					<td>12/K</td>
+					<td>28</td>
+					<td>21</td>
+				</tr>
+				<tr>
+					<td>12/G</td>
+					<td>20</td>
+					<td>17</td>
+					<td>12/L</td>
+					<td>30</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>12/H</td>
+					<td>22</td>
+					<td>18</td>
+					<td>12/M</td>
+					<td>32</td>
+					<td>23</td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+		<a name="end0eDwarfTo0eEcl" id="end0eDwarfTo0eEcl"></a></div>
+	<h5><a name="Step2Bii-3ECharLevel-Dwarf" id="Step2Bii-3ECharLevel-Dwarf">
+	</a>2B.ii: Dwarf Character Level</h5>
+	<p class="initial">In standard 0E D&amp;D, the <strong>
+	<a href="races.html#dwarves">dwarf</a></strong> race was able to reach 12th 
+	level, at which point they were also granted &quot;Attack Rank C&quot; 
+	(dwarves never receive attack ranks A or B).&nbsp; Beyond that 
+	point, as they gained experience they continued to improve their abilities by 
+	obtaining additional Attack Ranks, lettered from D through M.</p>
+	<p>A dwarf gains his first 12 levels at a rate that more or less keeps him in 
+	line with his human companions, so the 12/C-level 0E dwarf character is the 
+	equivalent of a 0E human with 12 class levels, which is, in turn, the 
+	equivalent of a 3E character with 12 character levels.</p>
+	<p>All dwarf Attack Ranks, D through M, are equal to two human class levels. 
+	Therefore the 12/D-level 0E dwarf character is the equivalent 
+	of a 0E human with 14 class levels, which is, in turn, the equivalent of a 
+	3E character with 14 character 
+	levels; and the 12/J-level 0E dwarf character is the equivalent of a 0E human with 26 class levels, which is, 
+	in turn, the equivalent of a 3E character with 20 character levels.&nbsp; </p>
+	<p>We have included Table C3: 0E Dwarf Level to Effective 0E Human Class 
+	Level and Effective 3E Character 
+				Level 
+	as an aid to help you when converting a 0E dwarf characters.&nbsp; Simply refer 
+	to the table to find out what your 0E dwarf character&#39;s effective 0E Human Class Level and effective 3E Character Level 
+	are.</p>
+	<div class="sidebar float-left">
+		<div class="invisible">
+			<a title="Skip past the table to the content." accesskey="S" href="#end0eElfTo0eEcl"><u>S</u>kip over table</a>.</div>
+		<div class="align-center">
+			<table id="table0eElfTo0eEcl" width="100%" summary="This table charts the 0E D&amp;D Elf's effective 0E D&amp;D human character level">
+				<caption>Table C4: 0E Elf Level to Effective 0E Human Class 
+				Level and Effective 3E Character Level</caption>
+				<colgroup span="3" class="align-center">
+					<col span="2" width="16%" />
+					<col span="1" width="17%" />
+				</colgroup>
+				<colgroup span="3" class="align-center">
+					<col span="2" width="16%" />
+					<col span="1" width="17%" />
+				</colgroup>
+				<thead>
+				<tr>
+					<th>0E elf<br />
+					Class
+					Level</th>
+					<th>0E Human Class
+					Level</th>
+					<th>3E Char
+					Level</th>
+					<th>0E elf<br />
+					Class
+					Level</th>
+					<th>0E Human Class
+					Level</th>
+					<th>3E Char
+					Level</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>2 (1)&#8224;</td>
+					<td>10/D</td>
+					<td>15</td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>3</td>
+					<td>3</td>
+					<td>10/E</td>
+					<td>17</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>4</td>
+					<td>4</td>
+					<td>10/F</td>
+					<td>19</td>
+					<td>16</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>5</td>
+					<td>10/G</td>
+					<td>21</td>
+					<td>17</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>7</td>
+					<td>7</td>
+					<td>10/H</td>
+					<td>23</td>
+					<td>18</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>8</td>
+					<td>8</td>
+					<td>10/I</td>
+					<td>25</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>9</td>
+					<td>9</td>
+					<td>10/J</td>
+					<td>27</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>10</td>
+					<td>10</td>
+					<td>10/K</td>
+					<td>29</td>
+					<td>21</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>12</td>
+					<td>12</td>
+					<td>10/L</td>
+					<td>31</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>10/C</td>
+					<td>13</td>
+					<td>13</td>
+					<td>10/M</td>
+					<td>33</td>
+					<td>23</td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+		<p class="initial">&#8224; This conversion generally recommends that 1st-level 
+		elves be converted 
+		to 2nd character level in 3E.&nbsp; This is to ensure they will have all the necessary 
+		proficiencies with magic and combat after conversion. NPCs that are less 
+		integral to the plot may optionally be converted to 1st character level at the 
+		DM&#39;s discretion.</p>
+		<p>Alternatively any DM who uses the Variant rule for &quot;1st-Level Multiclass 
+		Characters&quot; found in the <cite>Dungeon Master&#39;s Guide</cite> [<a href="lore.html#DMG">DMG</a>] may wish to convert 1st-level elves to 1st-level 
+		characters by using these rules.</p>
+		<a name="end0eElfTo0eEcl" id="end0eElfTo0eEcl"></a></div>
+	<h5><a name="Step2Biii-3ECharLevel-Elf" id="Step2Biii-3ECharLevel-Elf"></a>
+	2B.iii: 
+	Elf and Human Forester Character Level</h5>
+	<p class="initial">In standard 0E D&amp;D, the <strong><a href="races.html#elves">elf</a></strong> race was able to reach 10th level, 
+	at which point they were also granted &quot;Attack Rank C&quot; (elves never 
+	receive attack ranks A or B).&nbsp; Beyond that point, 
+	as they gained experience they continued to improve their abilities by obtaining 
+	additional Attack Ranks, lettered from D through M.</p>
+	<p>A 0E D&amp;D elf is effectively a multiclass Fighter/Magic User, with both combat and arcane magic 
+	skills. This 
+	combination of abilities results in a character that is slightly more 
+	powerful than other characters at similar levels, starting from first level.</p>
+	<p>To accommodate this difference in power, and also to allow converted 
+	characters to retain the same, or better, proficiencies with combat and arcane spellcasting, the 
+	first level 0E elf is considered to be the equivalent of a 0E human with 2 class 
+	levels, with one level each of the Fighter and Wizard classes (see . </p>
+	<p>For the remaining numbered levels, 2 through 10/C, the elf&#39;s effective 0E 
+	human class level increases by five levels for every four elf class levels.&nbsp; 
+	To achieve this, the elf&#39;s effective human class levels are increased by one 
+	level for each additional elf level except every fourth additional level, 
+	levels 5 and 9, where her effective human class level is increased by two 
+	levels.&nbsp; Thus, 
+	at 5th-level, the 
+	0E elf character is the equivalent of a 0E human with 7 class levels, which 
+	is, in turn, the equivalent of a 3E character with 7 character levels; at 8th-level she is the equivalent of a 
+	0E human with 10 
+	class levels, which is, in turn, the equivalent of a 3E character with 10 
+	character levels; and at 10/C-level she is the equivalent 
+	of a 0E human with 13 class levels, which is, in turn, the equivalent of a 
+	3E character with 13 character levels.</p>
+	<p>All elf Attack Ranks, D through M, are equal to two human 
+	class levels.&nbsp; Therefore the the 10/D-level 0E elf character is the equivalent of a 
+	0E human with 14 class levels, which is, in turn, the equivalent of a 3E 
+	character with 14 character levels; and a 10/J-level 0E elf character is the 
+	equivalent of a 0E human with 27 class levels, which is, in turn, the 
+	equivalent of a 3E character with 20 character levels.&nbsp; </p>
+	<p>We have included Table C4: 0E Elf Level to Effective 0E Human Class Level 
+	and Effective 3E Character Level 
+	as an aid to help you when converting a 0E elf characters.&nbsp; Simply refer 
+	to the table to find out what your 0E elf character&#39;s effective 0E Human Class Level and her effective 3E Character Level 
+	are.</p>
+	<p>The <strong>Forester</strong> class is a variant class for 0E human characters, 
+	introduced in the <cite>Dawn of the Emperors </cite>boxed set [<a href="lore.html#DotE">DotE</a>].&nbsp; 
+	This class allowed a human character who had been properly trained by and adopted into the Vyalia clan of wood elves to learn the way of the elf, 
+	including many of the secrets and skills typically reserved for the wood elf 
+	race. 
+	From a game mechanics point of view, human Foresters are identical 
+	to elves and must use the same guidelines when determining effective 3E 
+	character level.</p>
+	<h3><a name="Step3-3EClasses" id="Step3-3EClasses"></a>Step 3: Determine 3E Classes and Class Levels</h3>
+	<p class="initial">As you might expect, the process for determining a converted 
+	character&#39;s classes and class levels depends on 
+	the class or, because of the way 0E defines races, the race of the 0E character.</p>
+	<div class="sidebar float-right">
+		<div class="invisible">
+			<a title="Skip past the sidebar to the content." accesskey="S" href="#endRakeConversion"><u>S</u>kip over sidebar</a>.</div>
+	<h4>The 0E Rake Class</h4>
+	<p class="initial">In addition to the other 0E D&amp;D classes and races 
+	mentioned in section 3A on &quot;single class&quot; classes, the <cite>Dawn of the Emperors</cite> 
+	boxed set [<a href="lore.html#DotE">DotE</a>] adds a &quot;single 
+	class&quot; class known as the <strong>Rake</strong> to 
+	<strong class="mystarared">Mystara</strong> campaigns.</p>
+		<p>This class was 
+		labeled as the 
+	&quot;Non-Thief Thief&quot; and is almost identical to the 0E Thief class.&nbsp; 
+	The only differences are that Rakes do not have the Pick Pocket or the Backstab 
+	skill (there were no replacements given for these lost skills).&nbsp; In addition, 
+	Rakes are barred from belonging to a Thieves' Guild.</p>
+		<p>The 
+	<strong class="mystarared">Mystara-3E</strong> project team recommends that 0E Rakes be converted using the 3E Rogue class 
+		with the following guidelines applied:</p>
+	<ul>
+		<li>A Rake will never knowingly join or work for a Thieves' Guild.</li>
+		<li>A Rake will never use his Sneak Attack ability in a lethal 
+		manner against an 
+		opponent that is not prepared to defend himself.&nbsp; That is, he will never deal 
+		lethal Sneak Attack damage against an opponent that is flatfooted.&nbsp; 
+		He will, however, quite readily use this ability in any other situation where an 
+		opponent is denied his Dexterity bonus to AC, when he has his opponent 
+		flanked, or whenever he dealing non-lethal damage with a weapon that 
+		does so naturally (such as a sap).</li>
+		<li>A Rake will never knowingly use any skill for a dishonest or 
+		dishonorable reason.</li>
+		<li>[<em>optional</em>] A Rake treats Forgery, Intimidate, and Sleight of Hand&#8224; 
+		(skills typically used in &quot;shady&quot; ways) as cross-class skills instead of 
+		class skills.
+		</li>
+	</ul>
+	<p class="initial">&#8224; The &quot;Sleight of Hand&quot; skill was known as 
+	&quot;Pick Pockets&quot; in v3.0</p>
+	<a name="endRakeConversion" id="endRakeConversion"></a></div>
+	<h4><a name="Step3A-3EClasses-Single" id="Step3A-3EClasses-Single"></a>3A: 
+	Class Levels for &quot;Single Class&quot; 0E Classes </h4>
+	<p class="initial">Many 0E characters are simply single classed 
+	characters.&nbsp; These are generally 
+	the easiest characters to convert to 3E, as they simply become 
+	single-classed characters with a 3E class based on their 0E class (if they 
+	are human) or their race (if they are non-human).&nbsp; Class levels are 
+	equal to their previously calculated 3E Character level.</p>
+	<h5>
+	<a name="Step3Ai-3EClasses-Single-Human" id="Step3Ai-3EClasses-Single-Human">
+	</a>3A.i: Human Class Levels</h5>
+	<p class="initial">If the 0E character is a <strong><a href="races.html#humans">human</a></strong> with any of the following 0E 
+	D&amp;D classes, 
+	he is effectively a &quot;single class&quot; character: <strong>Cleric</strong>, 
+	<strong>Fighter</strong>, 
+	<strong>Magic-User</strong>, 
+	<strong>Mystic</strong>, and <strong>Thief</strong>.&nbsp; Each of these 0E classes has an 
+	obvious 3E counterpart:&nbsp; the 0E Cleric and 
+	Fighter simply remain Clerics and Fighters, while the Magic User becomes a 
+	Wizard, the Mystic becomes a Monk, and the Thief becomes a Rogue.</p>
+	<p class="initial">Humans may also be members of the <strong>Forester</strong> class from the <cite>
+	Dawn of the Emperors</cite> boxed set [<a href="lore.html#DotE">DotE</a>].&nbsp; 
+	From a game mechanics point of view, human Foresters are identical to elves 
+	and must use the same rules as an elf 
+	when his 3E class levels are determined&mdash;see
+	<a href="#Step2Bi-3EClasses-Multi-Elf">Section 3B.i: Elf 
+	and Human Forester Class Levels</a>, below.</p>
+	<h5>
+	<a name="Step3Aii-3EClasses-Single-Demihuman" id="Step3Aii-3EClasses-Single-Demihuman">
+	</a>3A.ii: Dwarf and Halfling Class Levels</h5>
+	<p class="initial">If the 0E character is a <strong><a href="races.html#dwarves">
+	dwarf</a></strong> or <strong><a href="races.html#halflings">halfling</a></strong>, 
+	she is effectively a &quot;single class&quot; 0E Fighter and thus converts 
+	into a 3E 
+	Fighter.</p>
+	<h4><a name="Step2B-3EClasses-Multi" id="Step2B-3EClasses-Multi"></a>3B: 
+	Classes for &quot;Multiclass&quot; 0E Classes </h4>
+	<p class="initial">There are some 0E races and classes in the source 
+	material for 0E D&amp;D and the <strong class="mystarared">Mystara </strong>campaign 
+	settings, which gain class 
+	features of two &quot;single class&quot; classes combined into one.&nbsp; These were 
+	generally balanced against other classes by having a slower XP progression.&nbsp; 
+	The end result was that the character effectively progressed roughly like a 
+	two-class multiclass character in 1E or 2E D&amp;D.</p>
+	<p style="clear: left;">Unfortunately, despite the similarity to 
+	multiclassing from earlier D&amp;D versions, as the character is actually 
+	progressing in just a single 0E class or race, there is no &quot;one size fits 
+	all&quot; class conversion so that each race or class that falls into this 
+	category must be addressed separately, in terms of which the 3E classes and 
+	what class levels they should have for each one. </p>
+	<h5><a name="Step2Bi-3EClasses-Multi-Elf" id="Step2Bi-3EClasses-Multi-Elf">
+	</a>3B.i Elf and Human Forester Class Levels</h5>
+	<p class="initial">As mentioned above, in 0E standard <strong>
+	<a href="races.html#elves">elves</a></strong> are 
+	effectively 0E multiclass Fighter/Magic Users and, as you probably suspect, 
+	they convert to multiclass Fighter/Wizards. However, her class levels for 
+	each class do not increase at the same rate as her 3E Character level goes 
+	up. Specifically, a typical 0E elf character achieves 5th caster level upon 
+	becoming a 10/C-level elf, and then goes on to improve only her 
+	fighting skills as she achieves subsequent Attack Ranks.&nbsp; (There is an exception to this rule, 
+	which the <strong>Treekeeper</strong> prestige class, once it 
+	has been defined, will cover in detail).</p>
+	<p>As a 0E 10/C-level elf character equates to a 0E human character level of 13, 
+	which in turn equates to 13th character level in 3E, it is necessary for an 
+	elf character to have obtained 9 Wizard levels by that point if we wish to 
+	maintain comparability in her caster-levels after she has been converted.&nbsp; Beyond 13th 
+	character level she continues to gain only Fighter levels with each attack 
+	rank.&nbsp; See Table C5: 0E Elf Character Converted 3E Class Level 
+	Progression 
+	for the complete elf class level progression.</p>
+	<p>The <strong>Forester</strong> class is a variant class for 0E human characters, 
+	introduced in the <cite>Dawn of the Emperors </cite>boxed set [<a href="lore.html#DotE">DotE</a>].&nbsp; 
+	This class allowed a human character who had been properly trained by and adopted into the Vyalia clan of wood elves to learn the way of the elf, 
+	including many of the secrets and skills typically reserved for the wood elf 
+	race. 
+	From a game mechanics point of view, human Foresters are identical 
+	to elves and must use the same guidelines when determining class levels.</p>
+	<div class="sidebar float-wide">
+		<div class="invisible">
+			<a title="Skip past the table to the content." accesskey="S" href="#endElfClasses"><u>S</u>kip over table</a>.</div>
+	    <div class="align-center">
+			<table id="tableElfClasses" width="100%" summary="This table charts the class level progression for a converted 0E D&amp;D Elf character.">
+				<caption>Table C5: 0E Elf Character Converted 3E Class Level Progression</caption>
+				<colgroup span="1" width="8%" class="align-left valign-middle">
+				</colgroup>
+				<colgroup span="23" width="4%" class="align-center">
+				</colgroup>
+				<tbody>
+				<tr>
+					<th>3E Elf Character Level</th>
+					<td>1&#8224;</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6&#8225;</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+					<td>11&#8225;</td>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+					<td>20</td>
+					<td>21</td>
+					<td>22</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<th>3E Fighter Level</th>
+					<td>0</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>2</td>
+					<td>2</td>
+					<td>2</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>4</td>
+					<td>4</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<th>3E Wizard Levels</th>
+					<td>1</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+					<td>9</td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+		<p class="initial">&#8224; This conversion generally recommends that 1st-level 
+		elves be converted to 2nd character level in 3E.&nbsp; This is to ensure 
+		they will have all the necessary proficiencies with magic and combat 
+		after conversion. NPCs that are less 
+		integral to the plot may optionally be converted to 1st character level at the 
+		DM&#39;s discretion and, if they do, we recommend that common 1st level 
+		elves be converted as 1st-level Wizards.</p>
+		<p>Alternatively any DM who uses the Variant rule for &quot;1st-Level Multiclass 
+		Characters&quot; found in the <cite>Dungeon Master&#39;s Guide</cite> [<a href="lore.html#DMG">DMG</a>] may wish to convert 1st-level elves to 1st-level 
+		characters by using these rules, resulting in a 0.5/0.5 Ftr/Wiz 
+		character, with a primary class of Wizard.</p>
+		<p class="initial">&#8225; Although the standard calculation for determining a 0E 
+		elf's 
+		effective 3E 
+		Character Level skips over these 3E character levels (see
+		<a href="#Step2Biii-3ECharLevel-Elf">Step 2B.iii: Elf Character Level</a> above) they have 
+		been included in this table for the sake of completeness. </p>
+		<a name="endElfClasses" id="endElfClasses"></a></div>
+	<div class="sidebar float-wide">
+		<div class="invisible">
+	  <a title="Skip past the sidebar to the content." accesskey="S" href="#endAlternateClassConversion"><u>S</u>kip over sidebar</a>.</div>
+		<h4>Alternative Class Conversion Options</h4>
+	<p class="initial">In some situations, and for certain classes, it may be worth 
+	considering, for flavor or other reasons, deviating 
+	from the standard conversion guidelines given above.</p>
+		<p>Specifically, you may wish to consider whether any of the following 
+		alternate conversions would be appropriate for a particular character:</p>
+		<ul>
+			<li>When the normal conversion is 3E <strong>Fighter</strong>, consider using 
+			a 3E <strong>Barbarian</strong>, <strong>Ranger</strong> 
+			or <strong>Warrior</strong> instead.</li>
+			<li>When the normal conversion is 3E <strong>Rogue</strong>, consider using a 3E 
+			<strong>Ranger</strong> or <strong>Expert</strong> 
+			instead.</li>
+			<li>When the normal conversion is 3E <strong>Wizard</strong>, consider using a 3E 
+			<strong>Bard</strong> or <strong>Sorcerer</strong> 
+			instead.</li>
+		</ul>
+	<p>However, we do advise you to tread carefully before choosing to deviate 
+	from our standard conversion recommendations.&nbsp; Consider carefully whether there are 
+	any class abilities or a skill levels that the adventure assumes the 
+	character in question does or does not have in order to facilitate or justify certain 
+	events or elements of the plot.&nbsp; If there are such assumptions, the 
+	converted character should be designed to continue meeting these adventure 
+	requirements in some way (though not necessarily exactly the same way).</p>
+	<a name="endAlternateClassConversion" id="endAlternateClassConversion"></a></div>
+	<h3><a name="Step4-3ESkills" id="Step4-3ESkills"></a>Step 4: Assigning 
+	3E Skill Points</h3>
+	<p class="initial"><span class="mystarared">{TBD}</span></p>
+	<h3><a name="Step5-3EFeats" id="Step5-3EFeats"></a>Step 5: Selecting 3E 
+	Feats</h3>
+	<p class="initial"><span class="mystarared">{TBD}</span></p>
+	<h2><a name="CompletedConversions" id="CompletedConversions"></a>Completed Conversions</h2>
+	<p class="initial">{All conversions in this section will conform to the conventions 
+	and specifications of the Mystara-3E Conversion Project and will comply with 
+	the &quot;ESD Conversion Agreement&quot;}</p>
+	<h3><a name="CompletedConversions-NPC" id="CompletedConversions-NPC"></a>Prominent 
+	NPCs of Mystara</h3>
+	<p class="initial">{This section will eventually link to conversions of notable 
+	Mystaran NPCs from the Gazetteers, Almanacs, &amp;c.&nbsp; These will be provided 
+	as an aid to DMs so that they do not have to convert such characters themselves.}</p>
+	<h3><a name="CompletedConversions-Adventures" id="CompletedConversions-Adventures"></a>Adventures in Mystara</h3>
+	<p class="initial">{This section will eventually link to conversions of adventure 
+	modules that are either explicitly set or commonly believed to be set in Mystara.}</p>
+    </div>
+    <!-- #EndEditable --></div>
+<div id="Footer">
+
+<p class="ltb"><a class="end-navigation" href="main.html">
+<span class="nowrap">Home</span></a> | <a class="end-navigation" 
+href="about.html"><span class="nowrap">About Mystara</span></a> |
+<a class="end-navigation" href="regions.html"><span class="nowrap">Regions of 
+Mystara</span></a> | <a class="end-navigation" href="races.html">
+<span class="nowrap">Races of Mystara</span></a> | <a class="end-navigation" 
+href="classes.html"><span class="nowrap">Classes of Mystara</span></a> |
+<a class="end-navigation" href="skillsfeats.html"><span class="nowrap">Skills 
+and Feats</span></a> | <a class="end-navigation" href="equipment.html">
+<span class="nowrap">Equipment</span></a> | <a class="end-navigation" 
+href="immortals.html"><span class="nowrap">The Immortals Above</span></a> |
+<a class="end-navigation" href="magic.html"><span class="nowrap">Magic in Mystara</span></a> 
+| <a class="end-navigation" href="monsters.html"><span class="nowrap">Monstrous 
+Manual</span></a> | <a class="end-navigation" href="multiverse.html">
+<span class="nowrap">Mystaran Multiverse</span></a> | <a class="end-navigation" 
+href="conversions.html"><span class="nowrap">3E Conversions</span></a> |
+<a class="end-navigation" href="lore.html"><span class="nowrap">Mystaran Lore</span></a> 
+| <a class="end-navigation" href="thanks.html"><span class="nowrap">Acknowledgements</span></a> 
+| <a class="end-navigation" href="legal.html"><span class="nowrap">Legal Mumbo-Jumbo</span></a></p>
+<p class="stb">Have comments or concerns about this web site?<br />
+<span class="comments">Send email to
+the strawberryJAMM Designs webmaster: webmaster&nbsp;[at]&nbsp;jamm&nbsp;[dot]&nbsp;com</span></p>
+<p class="stb">Have comments or concerns you&#39;d like to share about the Mystara
+  d20  conversion?<br />
+<span class="comments">Join the
+<a href="http://groups.google.ca/group/mystara-d20">Mystara d20 Google Group</a></span></p>
+<p class="ltb">&nbsp;</p>
+<!-- #BeginEditable "validation" --><p class="initial">
+	<!--webbot bot="Include" 
+ u-include="includes/valid-xhtml10.htm" tag="P" startspan -->
+
+<a href="http://validator.w3.org/check/referer" target="_blank">
+<img src="Images/icons/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" 
+width="88" border="0" /></a>
+
+<!--webbot bot="Include" i-checksum="13607" endspan --><!--webbot bot="Include" 
+ u-include="includes/valid-css.htm" tag="P" startspan -->
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+<img src="Images/icons/valid-css.png" alt="Valid CSS!" height="31" 
+width="88" border="0" /></a>
+
+<!--webbot bot="Include" i-checksum="6647" endspan --></p>
+    <!-- #EndEditable --></div>
+
+</body>
+
+<!-- #EndTemplate --></html>

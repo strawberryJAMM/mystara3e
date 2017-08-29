@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>New Index Test Page</title>
+</head>
+<body>
+<h1>New Index Test Page</h1>
+<P>URI: <!--#echo var="DOCUMENT_URI" --></p>
+</body>
+</html>

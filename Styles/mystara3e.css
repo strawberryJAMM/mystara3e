@@ -1,0 +1,471 @@
+/* General font and paragraph styles */	
+body {
+	margin:		    0em;
+	padding:	    0em;
+	color:		    #220440;
+	font-family:	'Arial Unicode MS', sans-serif;
+	font-size:  	0.90em;
+	line-height:	1.10em;
+	font-weight:	normal;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	background-color: #FFFAF0; /* floralwhite */
+	background-image: url('../Images/menu/M3E-background.jpg'); 
+	}
+
+pre, code, tt	{
+	font-family:	'Courier New', monospace;
+	font-size: 1.0em;
+    }
+
+p {
+	margin:		    0em 0em 0.5em 0em;
+	padding:	    0em;
+	text-indent:	2em;
+	}
+	
+ul, ol {
+    margin-left:    2.0em;
+    }
+
+table, th, td {
+    padding:            0.25em;
+	margin:		        0.5em 0em;
+    font-size:          90%;
+    line-height:        inherit;
+    color:              inherit;
+    background-color:   inherit;
+    border:             1px solid #609;
+    border-collapse:    collapse;
+    }
+thead, th {
+    color:              #609;
+    background-color:   inherit;
+    }
+caption {
+	margin:		        0em 0em 0.5em 0em;
+	padding:	        0em;
+    text-align:         left;
+    color:              inherit;
+    background-color:   inherit;
+    }
+table table, table table th, table table td {
+	font-size:			100%;
+	}
+        
+h1, h2, h3, h4, h5, h6 {
+	margin:		        0.2em 0em 0.75em 0em;
+	padding:	        0em;
+	color:		        #609;   /* mystara purple */
+	background-color:   inherit;
+	font-family:	    'Arial Unicode MS', sans-serif;
+	word-spacing:   	normal;
+	letter-spacing:	    normal;
+	text-transform:	    none;
+	}
+
+h1 {
+	font-size:	    2.75em;
+	line-height:	2.95em;
+	font-weight:	bold;
+	}
+	
+h2 {
+	font-size:	    2.25em;
+	line-height:	2.45em; 
+	font-weight:	bold;
+	}
+
+h3 {
+	font-size:	    1.80em;
+	line-height:	2.00em;
+	font-weight:	bold;
+	}
+	
+h4 {
+	font-size:	    1.35em;
+	line-height:	1.55em;
+	font-weight:	bold;
+	}
+
+h5 {
+	font-size:	    1.00em;
+	line-height:	1.20em;
+	font-weight:	bold;
+	}
+
+h6 {
+	font-size:	    0.90em;
+	line-height:	1.10em;
+	font-weight:	bold;
+	}
+
+a {
+	color:				#609;	/* Mystara Purple */
+	background-color:   inherit;
+	text-decoration:	none;
+	font-weight:		bold;
+	}
+a:link {
+	color:				#609;	/* Mystara Purple */
+	background-color:   inherit;
+	}
+a:visited {
+	color:		        #739;	/* Pale Mystara Purple */
+	background-color:   inherit;
+	}
+a:hover {
+	color:				inherit;
+	background-color:	#FD0;   /* Mystara Gold */
+	text-decoration:    underline;
+	}
+
+a.navigation {
+	color: 		        #FD0;   /* Mystara Gold */
+	background-color:   inherit;
+	text-decoration:	none;
+	font-weight:	    normal;
+}
+a:link.navigation {
+	color: 		        #FD0;   /* Mystara Gold */
+	background-color:   inherit;
+	}
+a:visited.navigation {
+	color: 	        	#FD0;   /* Mystara Gold */
+	background-color:   inherit;
+	}
+a:hover.navigation {
+	color: 	        	#609;   /* Mystara Purple */
+	background-color:   #FD0;   /* Mystara Gold */
+	text-decoration:	none;
+	}
+
+a.end-navigation {
+	font-size:	        0.80em;
+	font-weight:	    normal;
+}
+a:link.end-navigation {
+	}
+a:visited.end-navigation {
+	}
+a:hover.end-navigation {
+	text-decoration:    none;
+	}
+
+cite {
+	font-style:		italic;
+}
+
+em {
+	font-style:		italic;
+}
+
+strong {
+	font-weight:	bold;
+}
+
+i cite, em cite, .comments cite {
+	text-decoration:	underline;
+}
+
+hr {
+	color:		#609;	/* mystra purple */
+	height:		1px;
+}
+div.sidebar hr {
+	width:		70%; 
+}
+
+.initial {
+	text-indent:	0em;
+	}
+	
+.info {
+	text-indent:	0em;
+	margin-bottom:	0em;
+	}
+
+.spellregion {
+	text-indent:	0em;
+	margin-top:		16px;
+	margin-bottom:	16px;
+	}
+
+.reference {  
+	padding-left: 	3.5em;
+	text-indent: 	-1.75em; 
+	margin-top:		0em;
+	margin-bottom:	0.75em;
+}
+
+.reference-continued {  
+	padding-left: 	3.5em;
+	text-indent:	0em;
+	margin-top:		-0.25em;
+	margin-bottom:	0.75em;
+}
+
+.reference-nospaceafter {
+	padding-left: 	3.5em;
+	text-indent: 	-1.75em; 
+	margin-bottom:	0em;
+	}
+
+.comments {
+	color:		        #609;	/* mystra purple */
+	background-color:   inherit;
+	font-style:		    italic;
+}
+
+.notOGC {
+	color:				#F00; /* Red */
+	background-color:   inherit;
+	text-indent:		0em;
+	text-align:			center;
+	text-transform:		uppercase;
+	text-decoration:	underline overline;
+	margin-top:			0.5em;
+	padding-top:		0.5em;
+	border-left:		0em none;
+	border-right:		0em none;
+	border-top:			1px dotted #000000;
+	border-bottom:		0em none;
+	}
+	
+/* Small Thematic Break */
+.stb	{	
+	text-indent:	0em;
+	margin-top:	    0.5em;
+	padding-top:	0.5em;
+	border-left:	0em none;
+	border-right:	0em none;
+	border-top:	    1px dotted;
+	border-bottom:	0em none;
+	}	
+		
+/* Medium Thematic Break */
+.mtb	{	
+	text-indent:	0em;
+	margin-top: 	1.0em;
+	padding-top:	1.0em;
+	border-left:	0em none;
+	border-right:	0em none;
+	border-top:	    1px solid;
+	border-bottom:	0em none;
+	}	
+		
+/* Large Thematic Break */
+.ltb	{	
+	text-indent:	0em;
+	margin-top:	    1.5em;
+	padding-top:	1.5em;
+	border-left:	0em none;
+	border-right:	0em none;
+	border-top:     3px double;
+	border-bottom:	0em none;
+	}
+
+/* Lay-out styles */
+
+/* This is to hold text which lets people without top-notch browsers know that
+the site content will still be accessible but may not be as pretty for them */
+#Ahem {
+	display:            none;
+	color:              inherit;
+	background-color:   #eeeeee;
+	border:		        1px dashed #999999;
+	margin:		        1em;
+	padding:	        1em;
+	font-weight:	    900;
+	width:		        66%;
+	}
+
+
+/* Sidebar and Menu layout acheived with "Basic Two Column Layout" from BlueRobot 
+   Layout Reservoir.  See http://www.bluerobot.com/web/layouts/ for more details */
+
+div.sidebar {
+ 	margin: 	        0.5em;
+ 	padding:	        0.5em;
+	font-size:          0.90em;
+	line-height:        1.10em;
+	border: 	        2px solid #609; /* Mystara Purple */
+	background-color:   #FD0; /* Mystara Gold */
+	color:              #000;
+}
+
+div.sidebar h1, div.sidebar h2, div.sidebar h3, div.sidebar h4, div.sidebar h5, div.sidebar h6 {
+	margin-bottom:		0.25em;
+	color:              #000;
+	background-color:   inherit;
+    }
+div.sidebar h1 {
+	font-size:	    2.25em;
+	line-height:    2.45em;
+    }
+div.sidebar h2 {
+	font-size:	    1.80em;
+	line-height:	2.00em;
+    }
+div.sidebar h3 {
+	font-size:	    1.35em;
+	line-height:	1.55em;
+    }
+div.sidebar h4 {
+	font-size:	    1.00em;
+	line-height:	1.20em;
+    }
+div.sidebar h5 {
+	font-size:	    0.90em;
+	line-height:	1.10em;
+    }
+div.sidebar h6 {
+	font-weight:    normal;
+	font-style:     italic;
+    }
+    
+#Title, #Body, #Footer {
+    color:              inherit;
+	background-color:   inherit;
+	margin:		        0.5em 0em;
+	padding:	        0.85em 0em 0em 1em;
+	}
+
+#Menu {
+	position:	relative;
+	float:      right;   
+ 	margin: 	0.5em;
+ 	padding:	0em;
+	border: 	0em;
+	width:      15em;
+	text-align: center;
+	}
+#Menu table, #Menu th, #Menu td {
+    border:             0px;
+    border-collapse:    collapse;
+    padding:            0em;
+	margin:		        0em;
+    font-size:          inherit;
+    line-height:        inherit;
+    color:              #FFF;
+    background-color:   inherit;
+    }
+    
+/* Collapsable Tree Styles */
+menu {
+	list-style-type:	none;
+	list-style-image:	url('../Images/icons/leafnode.png');
+}
+    	
+/* Utility Styles */
+.align-center {
+    text-align:     center;
+    }
+.align-left {
+    text-align:     left;
+    }
+.align-right {
+    text-align:     right;
+    }
+.valign-top {
+    vertical-align: top;
+    }
+.valign-middle {
+    vertical-align: middle;
+    }
+.valign-bottom {
+    vertical-align: bottom;
+    }
+.float-right {
+	position:	        relative;
+	float:              right;
+	clear:              left;   
+	width:              36%;
+ 	padding-left: 	    1em;
+    }
+.float-left {
+	position:	        relative;
+	float:              left;
+	clear:              right;   
+	width:              36%;
+ 	padding-right: 	    1em;
+    }
+.float-wide {
+	position:	        relative;
+	clear:              both;
+	width:	            100%;        
+ 	padding-top: 	    1em;
+ 	padding-bottom: 	1em;
+    }
+.dblspace {
+	line-height:	150%;
+	text-align:     left;
+	vertical-align: top;
+	}
+
+.nowrap {
+	white-space:    nowrap;
+    }
+
+.invisible {
+	display:	    none;
+    }
+
+	
+/* Color Styles */
+.mystarared		{
+	color:	            #F40;	    /* orangered */
+	background-color:   inherit;
+    }
+
+.mystaragold	{
+	color:	            #FD0;	    /* gold */
+	background-color:   inherit;
+    }
+
+.mystarapurple	{
+	color:	            #609;		/* mystara purple */
+	background-color:   inherit;
+    }
+
+
+/* Embeded Font objects using the EOT format */
+/* $WEFT -- Created by: Jenni A.M. Merrifield (strawberry@jamm.com) on 7/10/2003 -- */
+
+@font-face {
+    font-family: Arial Unicode MS;
+    font-style:  normal;
+    font-weight: normal;
+    src: url("../includes/fontobj/ARIALUN3.eot");
+    }
+@font-face {
+    font-family: Arial Unicode MS;
+    font-style:  normal;
+    font-weight: 700;
+    src: url("../includes/fontobj/ARIALUN2.eot");
+    }
+@font-face {
+    font-family: Arial Unicode MS;
+    font-style:  oblique;
+    font-weight: normal;
+    src: url("../includes/fontobj/ARIALUN0.eot");
+    }
+@font-face {
+    font-family: Arial Unicode MS;
+    font-style:  oblique;
+    font-weight: 700;
+    src: url("../includes/fontobj/ARIALUN1.eot");
+    }
+@font-face {
+    font-family: Courier New;
+    font-style:  normal;
+    font-weight: 700;
+    src: url("../includes/fontobj/COURIER1.eot");
+    }
+  @font-face {
+    font-family: Courier New;
+    font-style:  normal;
+    font-weight: normal;
+    src: url("../includes/fontobj/COURIER0.eot");
+    }

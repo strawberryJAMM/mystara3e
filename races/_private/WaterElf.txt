@@ -1,0 +1,107 @@
+Version 1.0
+
+/Water Elves/
+
+The water elves of Minrothad have developed into a distinctive subculture, and are recognized as a group separate from the mainstream elven race of Mystara. In this regard, they are similar to the shadow elves of the Broken Lands, to whom they bear a physical resemblance that many other elves find unsettling.
+
+  /Personality/: A water elf's first love is the sea. He is fascinated by its ever-changing moods and excited by the challenges it constantly presents to the seafarer. His curiosity is piqued by its water mysteries; a water elf loves to travel on the ocean and learn about the creatures in it, and often masters magic which deals specifically with the sea and weather.
+  Water elves were the first inhabitants of the Minrothad Isles to explore the local waters thoroughly. They were the first to develop moveable rigging on sailing craft so that a vessel could sail close to the wind and maneuver with ease. They continue to innovate and improve their sailing vessels, giving the merchant fleet of the Minrothad Guilds its justly-deserved reputation as the finest and swiftest in the known world.
+  This avid interest in the ocean and ways to travel upon it have made the water elves one of the driving forces of the Minrothad Guilds. It was their seafaring knowledge and wanderlust combined with the human interest in trade that enabled the Minrothad Guilds to expand and dominate sea-going commerce.
+  Always anxious to travel, water elves are excited by new sights, new lands, and new prospects for trade. They are happy to arrive at a destination, and are equally happy to leave it for some place new, providing the traveling is done by sea or river. More than half of the Minrothad traders encountered in continental ports are water elves, as are many of the merchant-prince ship captains, but these elves do not care to be factors or guild representatives permanently posted in a foreign city.
+
+  /Physical Description/: Water elves are towed-headed or have light blond hair that bleaches almost white in the sun. Their eyes are blue-gray and their complexions are pale in spite of constant exposure to weather and sun. They have a faint resemblance to the Alfheim elves, but look even more like shadow elves because of their coloration.
+
+  /Relations/: {tbd}
+
+  /Alignment/: {tbd}
+
+  /Water Elven Lands/: Virtually all water elves hail from Seahome on Alfeisle in the Minrothad Guilds, and the greatest majority of them are members of the Elsan Family Guild, though there are a few found among the other Guilds of Minrothad.
+  {more may be needed}
+
+  /Religion/: The primary religion of the water elf clans is known as "Elendaen", which means "The Ocean Path". This philosophy honors Calitha Starbrow, a water elf from ancient times who ascended to immortality in the sphere of Time. She is especial fond of the water. She taught water elves the art of seafaring and led them to their home in Minrothad.
+  Adherents of Elendaen believe the ocean is the cradle of all life, for even trees thrive on the rain from storms that form over the sea. Elendaen followers desire to exploit the land and sea wisely so they may continue to prosper.
+  Keepers and others dedicated to Elendaen wear only garments and accessories derived from products of the sea.
+
+  /Language/: All Mystaran elves speak a single common elven language, a fluid language of subtle intonations and intricate grammar. Slight differences in dialect reveal the origin of the speaker but do not interfere with mutual understanding.
+
+  /Names/: {tbd}
+
+  /Common Given Names/: {tbd}
+
+  /Major Clan Names/:  Guild Elsan of Minrothad: {list subclan names} 
+
+  /Adventurers/: {tbd}
+
+/Water Elf Racial Traits/
+
+Water elf characters have racial traits identical to those of the Mystaran forest elf race as specified on the Mystar 3E Web Site except as follows:
+
+* /Regions/: While Mystaran waters elves may be found on the docks of almost any port town where a Minrothad ship might weigh anchor, they will almost all name the Minrothad Guilds as their true home, with the largest majority claiming the port of Seahome on the island of Alfeisle as their home. 
+
+* /Ability Modifiers/:  +2 Dexterity, +2 Intelligence, -2 Strength, -2 Constitution: Water elves, slighter of build than forest elves, favour intellectual elegance and physical agility over brute strength. 
+
+* /Swim like Fish/: +2 racial bonus on Swim checks. Water elves spend so much of their time near, in and on the water, they gained additional competency with this skill as a means of survival. 
+
+* /Direction Sense/: Water elves have developed an deep natural sense of direction.  As a result, all water elves are are also assumed to be trained in the Intuit Direction skill even if they put no extra ranks into it.
+
+* /Navigation Sense/: Water elves have also developed an uncanny navigational sense.  As a result, a water elf is able to know in what direction a destination lies in relation to his current position, providing he has been to that place at least once before. For this reason it is said that once a water elf has been to a port, he can always find his way back again.
+   Navigation Sense works in conjunction with the Intuit Direction skill.  To use this ability, the water elf must first use Intuit Direction to to fix the direction of north in relation to his current position in his mind. If successful, there is then a 75% chance that he can correctly identify the direction of the destination in question. If this percentage roll fails, the water elf is simply unable to get a "fix" on the direction to the destination. 
+  Navigation Sense can only be used once per destination. 
+
+* /Weapon Proficiencies/: Proficient with either longsword, rapier or sabre[+]. Despite their shift from the woodlands to the seas, water elves still esteem the art of swordplay, so all water elves are familiar with at least one "respectable" bladed weapon, which (for them) includes the sabre as well as the more traditional longsword and rapier.  However, they no longer place any great emphasis on the so-called "art of archery" and, unlike members of the forest elf race, do not spend extra effort on learning to use long bows and short bows. 
+
+[+] Sabre is a new weapon, see below for details
+
+* /Magical Training/: To many outsiders, it almost seems as if every water elf, regardless of profession or role, has been trained in the use of some small amount of arcane magic. In point of fact, water elf society, like the society of their traditional forest elf breathren still has a great deal of respect for those who take it upon themselves to learn even the most basic tenets of wizardry. Thus, water elves who also have the aptitude for wizardly magic (Intelligence 10+), meet all the prerequisites for the Water Elf Magical Training regional feat [=]. 
+
+[=] Water Elf Magical Training would be identical to the standard Elf Magical Training except that one of the three cantrips are different: equilibrium/sea legs replaces daze (see below for the new spell Equilibrium/Sea Legs)
+
+* /Favoured Class/: Wizard. A multiclass water elf's wizard class does not count when determining whether she suffers an XP penalty for multiclassing (see "Experience for Multiclass Characters", Player's Handbook, page 56). Wizardry comes as naturally to water elves as to forest elves, although they are far more interested in weather and water magic than other elves. As with other elves, Fighter/Wizards are a common combination among water elves, although Rogue/Wizards are also popular because of their natural inclination to follow the carefree life of the sailor. 
+
+
+**************************
+New Spell
+(derived from "Sea Legs" on the Minrothad Merchant Prince spell list)
+
+Equilibrium (aka: Sea Legs)
+Transmutation
+Level: Brd 0, Drd 0, Sor/Wis 0 
+Components: V, S
+Casting Time: 1 action
+Range: Close (25 ft + 5 ft/2 levels)
+Target: One person
+Duration: 20 minutes + 10 minutes/level
+Saving Throw: Fortitude negates
+Spell Resistance: Yes
+
+Regions where known: Alphatia, Ierendi (as Sea Legs), Minrothad Guilds (as Sea Legs)
+
+  This spell can be used to increase or decrease the target's equilibrium, and thus their ability to balance. It is especially useful in unstable situations such as on the deck of a ship. The spellcaster chooses whether to increase or decrease the target's equilibrium at the moment of casting.
+  If the equilibrium is increased, the target receives a +2 bonus to all Balance, Climb, and Tumble checks attempted while the spell is active. This use of the spell also has the side effect of stopping the effects of oncoming or actual motion sickness, which explains the alternative name that this cantrip may be given among sea faring peoples.
+  If the equilibrium is decreased, the target receives a -2 penalty to all Balance, Climb, or Tumble checks attempted while the spell is active. In addition, the target must make a Balance check against the spell's DC in any round in which they attempt to move at a rate faster than one-half normal speed.
+ Whenever the target fails a Balance, Climb, or Tumble check while under the effects of the decreased equilibrium version of the spell, they become nauseated from dizziness for the next round.  If they fail their check by more than 5 they will remain nauseated for an additional 1d3 rounds.
+
+**********
+New Weapons
+
+MARTIAL WEAPONS - MELEE
+Weapon              Cost    Dmg     Crit    Range  Weight     Type
+---------------------------------------------------------------------
+Small
+  Cutlass*          13gp    1d6     19-20/x2  -      4 lb.     (S)
+Medium-size
+  Sabre*            18gp    1d6     18-20/x2  -      5 lb.   (P)&(S)
+
+* See the description of this weapon for special rules
+
+
+  /Cutlass/: The cutlass is a short, heavy sword, sharp along only one edge, with a heavy iron basket hilt (a protective cup) to protect the hand.
+  The hilt can be used as a "gauntlet punch" in close quarters and also grants a +1 bonus against any disarm attempt made by an opponent. 
+  Cutlasses are common and readily available in any port community; they are much less common inland.
+
+  /Sabre/: Single edged, slightly curved, and sharpened on the convex edge, and a heavy iron basket hilt (a protective cup) to protect the hand.  The saber is primarily a slashing weapon but can also be thrust.
+  The hilt can be used as a "gauntlet punch" in close quarters and also grants a +1 bonus against any disarm attempt made by an opponent.
+  Sabres are common and readily available in any port community; they are much less common inland.
+  You can use the Weapon Finesse feat (see Player's Handbook, page 86) to apply your Dexterity modifier instead of your strength modifier to attack rolls with a Sabre, so long as it can be used one handed.
+
+
